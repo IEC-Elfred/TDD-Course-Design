@@ -333,4 +333,27 @@ public class Snake {
 		this.dir = dir;
 	}
 
+	public void addNode(int x, int y){
+		snakeNode.add(new SnakeNode(x,y));
+	}
+
+	public void setDir(Direction dir) {
+		moveflag = true;
+		this.dir = dir;
+	}
+
+	public Direction getDir() {
+		return dir;
+	}
+
+	public void changeDirection(Direction dir){
+		newdirVc.add(dir);
+		changeDir(dir);
+	}
+
+	public void addSnakeNode(){
+		snakeNode.add(new SnakeNode(0,0));
+	}
+
+
 }
