@@ -19,12 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93226f3b-6cc8-43b7-bf8b-a7fd5885af6c" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/tests/com/snake/extra/FileReadWriteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/com/snake/extra/MusicTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/com/snake/extra/TimeTest.java" afterDir="false" />
+    <list default="true" id="93226f3b-6cc8-43b7-bf8b-a7fd5885af6c" name="Default Changelist" comment="enums fine">
+      <change afterPath="$PROJECT_DIR$/tests/com/snake/enums/AllEnumsTestSuite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/com/snake/deal/GameModeDeal.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/com/snake/deal/GameModeDealTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/SnakeGame/com/snake/deal/ClassesDealTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SnakeGame/com/snake/deal/ClassesDealTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/SnakeGame/com/snake/deal/GameModeDealTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SnakeGame/com/snake/deal/GameModeDealTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/SnakeGame/com/snake/extra/MusicTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SnakeGame/com/snake/extra/MusicTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,18 +77,31 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/tests/com/snake/game" />
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.snake.enums" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.snake.enums" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/com/snake/game" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TimeTest.run">
-    <configuration name="ClassesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AllEnumsTestSuite">
+    <configuration name="MySnakeGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.snake.swing.MySnakeGame" />
+      <module name="SnakeGame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.snake.swing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AllEnumsTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SnakeGame" />
       <extension name="coverage">
         <pattern>
@@ -97,22 +110,22 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.snake.enums" />
-      <option name="MAIN_CLASS_NAME" value="com.snake.enums.ClassesTest" />
+      <option name="MAIN_CLASS_NAME" value="com.snake.enums.AllEnumsTestSuite" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EggTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClassesDealTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SnakeGame" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.snake.game.*" />
+          <option name="PATTERN" value="com.snake.deal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.snake.game" />
-      <option name="MAIN_CLASS_NAME" value="com.snake.game.EggTest" />
+      <option name="PACKAGE_NAME" value="com.snake.deal" />
+      <option name="MAIN_CLASS_NAME" value="com.snake.deal.ClassesDealTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,21 +143,6 @@
       <option name="MAIN_CLASS_NAME" value="com.snake.extra.FileReadWriteTest" />
       <option name="METHOD_NAME" value="isInRank" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SnakeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SnakeGame" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.snake.game.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.snake.game" />
-      <option name="MAIN_CLASS_NAME" value="com.snake.game.SnakeTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -167,15 +165,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AllEnumsTestSuite" />
+        <item itemvalue="Application.MySnakeGame" />
+        <item itemvalue="JUnit.ClassesDealTest" />
         <item itemvalue="JUnit.TimeTest.run" />
         <item itemvalue="JUnit.FileReadWriteTest.isInRank" />
-        <item itemvalue="JUnit.SnakeTest" />
-        <item itemvalue="JUnit.EggTest" />
-        <item itemvalue="JUnit.ClassesTest" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="应用程序级" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -203,6 +201,25 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1496" height="180" key="GridCell.Tab.0.bottom" timestamp="1649598554422">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1496" height="180" key="GridCell.Tab.0.bottom/0.0.1549.831@0.0.1549.831" timestamp="1649598554422" />
+    <state width="1496" height="180" key="GridCell.Tab.0.center" timestamp="1649598554422">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1496" height="180" key="GridCell.Tab.0.center/0.0.1549.831@0.0.1549.831" timestamp="1649598554422" />
+    <state width="1496" height="180" key="GridCell.Tab.0.left" timestamp="1649598554422">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1496" height="180" key="GridCell.Tab.0.left/0.0.1549.831@0.0.1549.831" timestamp="1649598554422" />
+    <state width="1496" height="180" key="GridCell.Tab.0.right" timestamp="1649598554422">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1496" height="180" key="GridCell.Tab.0.right/0.0.1549.831@0.0.1549.831" timestamp="1649598554422" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
