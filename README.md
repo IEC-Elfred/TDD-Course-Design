@@ -3,6 +3,9 @@
 本游戏基于java swing，是软件质量测试课设，采用TDD开发
 
 ##### Contributors:
+
+Elfredwei @elfredwei@gmail.com
+
 RunLuo @809732792@qq.com
 
 ZonghaoLiu @1137990991@qq.com
