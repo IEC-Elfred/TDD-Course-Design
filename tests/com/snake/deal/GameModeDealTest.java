@@ -4,18 +4,22 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-public class ClassesDealTest {
+public class GameModeDealTest {
     @Before
     public void setUp() throws Exception {
-        System.out.println("ClassesDealTest test setUp");
+        System.out.println("GameModeDealTest test setUp");
     }
 
     @After
     public void tearDown() throws Exception {
-        System.out.println("ClassesDealTest test tearDown");
+        System.out.println("GameModeDealTest test tearDown");
     }
+
     @Test
-    public void dieDeal(){
+    public void eatEgg(){
 
     }
+
+    @Test
+    public void restart(){}
 }
