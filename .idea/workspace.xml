@@ -24,6 +24,7 @@
       <change afterPath="$PROJECT_DIR$/tests/com/snake/extra/MusicTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tests/com/snake/extra/TimeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/com/snake/deal/GameModeDeal.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/com/snake/deal/GameModeDealTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,20 +87,7 @@
       <recent name="com.snake.enums" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FileReadWriteTest.isInRank">
-    <configuration name="MySnakeGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.snake.swing.MySnakeGame" />
-      <module name="SnakeGame" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.snake.swing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TimeTest.run">
     <configuration name="ClassesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SnakeGame" />
       <extension name="coverage">
@@ -161,8 +149,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TimeTest.run" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SnakeGame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.snake.extra.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.snake.extra" />
+      <option name="MAIN_CLASS_NAME" value="com.snake.extra.TimeTest" />
+      <option name="METHOD_NAME" value="run" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TimeTest.run" />
         <item itemvalue="JUnit.FileReadWriteTest.isInRank" />
         <item itemvalue="JUnit.SnakeTest" />
         <item itemvalue="JUnit.EggTest" />

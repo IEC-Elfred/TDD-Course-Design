@@ -2,6 +2,7 @@ package com.snake.extra;
 
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Test;
 
 public class MusicTest {
     @Before
@@ -13,4 +14,7 @@ public class MusicTest {
     public void tearDown() throws Exception {
         System.out.println("MusicTest test tearDown");
     }
+
+    @Test
+    public void musicstart(){}
 }
