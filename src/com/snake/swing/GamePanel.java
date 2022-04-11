@@ -7,7 +7,7 @@ import java.awt.Graphics;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
-import com.snake.deal.GamemodeDeal;
+import com.snake.deal.GameModeDeal;
 import com.snake.enums.*;
 import com.snake.extra.Filereadwrite;
 import com.snake.extra.Time;
@@ -21,7 +21,7 @@ public class GamePanel extends JPanel implements Runnable, KeyListener {
 	// 声明类
 	private Snake snake1 = null;
 	private Snake snake2 = null;
-	private GamemodeDeal gameModedeal = null;
+	private GameModeDeal gameModedeal = null;
 
 	public static GameModel gameMode;// 游戏模式
 	public static Classes classes;// 游戏级别
@@ -55,11 +55,11 @@ public class GamePanel extends JPanel implements Runnable, KeyListener {
 		// 初始化游戏模式为单人模式
 		gameMode = GameModel.SINGAL;
 		// 游戏模式
-		gameModedeal = new GamemodeDeal(this);
+		gameModedeal = new GameModeDeal(this);
 		// 实例化处理
-		GamemodeDeal.instantiate();
-		snake1 = GamemodeDeal.snake1;
-		snake2 = GamemodeDeal.snake2;
+		GameModeDeal.instantiate();
+		snake1 = GameModeDeal.snake1;
+		snake2 = GameModeDeal.snake2;
 		// 初始化速度
 		speed = classArry[classes.getClasses()];
 		isSpeedup = false;
@@ -92,7 +92,7 @@ public class GamePanel extends JPanel implements Runnable, KeyListener {
 		// 画蛋 开始或者暂停时 蛋存在
 		if (gameStatus == GameStatus.START || gameStatus == GameStatus.PAUSE || gameStatus == GameStatus.GAMEOVER) {
 			//双人模式2中 不需要画蛋
-			if(twoModel != TwoModel.TWO_2) {g.drawImage(new ImageIcon("images/egg.png").getImage(), GamemodeDeal.egg.x, GamemodeDeal.egg.y, this);}
+			if(twoModel != TwoModel.TWO_2) {g.drawImage(new ImageIcon("images/egg.png").getImage(), GameModeDeal.egg.x, GameModeDeal.egg.y, this);}
 		}
 		//重绘
 		this.repaint();
@@ -118,7 +118,7 @@ public class GamePanel extends JPanel implements Runnable, KeyListener {
 			gameModedeal.threadDeal();
 			// 单人模式
 			if (gameMode == GameModel.SINGAL) {
-				MySnakeGame.jlSnakeNode.setText("蛇长度:" + GamemodeDeal.snakeLength1);
+				MySnakeGame.jlSnakeNode.setText("蛇长度:" + GameModeDeal.snakeLength1);
 				MySnakeGame.jlSnakeNode.setFont(new Font("楷体", Font.PLAIN, 20));
 				MySnakeGame.jlScore.setText("分数:" + score);
 				MySnakeGame.jlScore.setFont(new Font("楷体", Font.PLAIN, 20));
@@ -143,9 +143,9 @@ public class GamePanel extends JPanel implements Runnable, KeyListener {
 			if (gameMode == GameModel.TWO) {
 				MySnakeGame.jlClass.setText("模式:" + classes.getName());
 				MySnakeGame.jlSnakeNode
-						.setText("蛇1长度:" + GamemodeDeal.snakeLength1 + " " + "蛇2长度:" + GamemodeDeal.snakeLength2);
+						.setText("蛇1长度:" + GameModeDeal.snakeLength1 + " " + "蛇2长度:" + GameModeDeal.snakeLength2);
 				MySnakeGame.jlSnakeNode.setFont(new Font("楷体", Font.PLAIN, 15));
-				MySnakeGame.jlScore.setText("蛇1生命:" + GamemodeDeal.life1 + " " + "蛇2生命:" + GamemodeDeal.life2);
+				MySnakeGame.jlScore.setText("蛇1生命:" + GameModeDeal.life1 + " " + "蛇2生命:" + GameModeDeal.life2);
 				MySnakeGame.jlScore.setFont(new Font("楷体", Font.PLAIN, 15));
 
 				if (twoModel == TwoModel.TWO_2) {
@@ -165,6 +165,8 @@ public class GamePanel extends JPanel implements Runnable, KeyListener {
 		gameModedeal.eatEgg();
 
 	}
+
+
 
 	// 画墙
 	private void drawWall(Graphics g) {
@@ -285,15 +287,15 @@ public class GamePanel extends JPanel implements Runnable, KeyListener {
 		// 游戏模式处理
 		gameModedeal.restart();
 		// 蛇长度
-		MySnakeGame.jlSnakeNode.setText("蛇长度:" + GamemodeDeal.snakeLength1);
+		MySnakeGame.jlSnakeNode.setText("蛇长度:" + GameModeDeal.snakeLength1);
 		MySnakeGame.jlSnakeNode.setFont(new Font("楷体", Font.PLAIN, 20));
 		if (gameMode == GameModel.TWO) {
 
 			MySnakeGame.jlClass.setText("模式:" + classes.getName());
 			MySnakeGame.jlSnakeNode
-					.setText("蛇1长度:" + GamemodeDeal.snakeLength1 + " " + "蛇2长度:" + GamemodeDeal.snakeLength2);
+					.setText("蛇1长度:" + GameModeDeal.snakeLength1 + " " + "蛇2长度:" + GameModeDeal.snakeLength2);
 			MySnakeGame.jlSnakeNode.setFont(new Font("楷体", Font.PLAIN, 15));
-			MySnakeGame.jlScore.setText("蛇1生命:" + GamemodeDeal.life1 + " " + "蛇2生命:" + GamemodeDeal.life2);
+			MySnakeGame.jlScore.setText("蛇1生命:" + GameModeDeal.life1 + " " + "蛇2生命:" + GameModeDeal.life2);
 			MySnakeGame.jlScore.setFont(new Font("楷体", Font.PLAIN, 15));
 			MySnakeGame.jlTime.setText("");
 			if (twoModel == TwoModel.TWO_2) {
@@ -302,8 +304,8 @@ public class GamePanel extends JPanel implements Runnable, KeyListener {
 			}
 
 		}
-		snake1 = GamemodeDeal.snake1;
-		snake2 = GamemodeDeal.snake2;
+		snake1 = GameModeDeal.snake1;
+		snake2 = GameModeDeal.snake2;
 		this.repaint();
 	}
 

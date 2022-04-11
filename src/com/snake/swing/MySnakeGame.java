@@ -1,6 +1,6 @@
 package com.snake.swing;
 
-import com.snake.deal.GamemodeDeal;
+import com.snake.deal.GameModeDeal;
 import com.snake.enums.Classes;
 import com.snake.enums.GameModel;
 import com.snake.enums.GameStatus;
@@ -334,21 +334,21 @@ public class MySnakeGame extends JFrame implements ActionListener, MouseListener
 		if (e.getSource() == this.jmtSimple1) {
 			GamePanel.gameMode = GameModel.SINGAL;
 			GamePanel.classes = Classes.SIMPLE;
-			GamemodeDeal.instantiate();
+			GameModeDeal.instantiate();
 			mp.reStart();
 		}
 		// 普通
 		if (e.getSource() == this.jmtMiddle1) {
 			GamePanel.gameMode = GameModel.SINGAL;
 			GamePanel.classes = Classes.MIDDLE;
-			GamemodeDeal.instantiate();
+			GameModeDeal.instantiate();
 			mp.reStart();
 		}
 		// 高手
 		if (e.getSource() == this.jmtHeight1) {
 			GamePanel.gameMode = GameModel.SINGAL;
 			GamePanel.classes = Classes.HEIGHT;
-			GamemodeDeal.instantiate();
+			GameModeDeal.instantiate();
 			mp.reStart();
 		}
 		// 双人模式
@@ -357,7 +357,7 @@ public class MySnakeGame extends JFrame implements ActionListener, MouseListener
 			GamePanel.gameMode = GameModel.TWO;
 			GamePanel.twoModel = TwoModel.TWO_1;
 			GamePanel.classes = Classes.MIDDLE;
-			GamemodeDeal.instantiate();
+			GameModeDeal.instantiate();
 			mp.reStart();
 		}
 		// 相互伤害模式
@@ -365,7 +365,7 @@ public class MySnakeGame extends JFrame implements ActionListener, MouseListener
 			GamePanel.gameMode = GameModel.TWO;
 			GamePanel.twoModel = TwoModel.TWO_2;
 			GamePanel.classes = Classes.MIDDLE;
-			GamemodeDeal.instantiate();
+			GameModeDeal.instantiate();
 			mp.reStart();
 		}
 		// 音效
