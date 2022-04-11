@@ -20,18 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93226f3b-6cc8-43b7-bf8b-a7fd5885af6c" name="Default Changelist" comment="Default Changelist">
+      <change afterPath="$PROJECT_DIR$/src/com/snake/swing/GamePanelMe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/com/snake/swing/GamePanelTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/com/snake/enums/Direction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/com/snake/enums/Direction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/com/snake/game/Egg.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/com/snake/game/Egg.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/com/snake/game/Snake.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/com/snake/game/Snake.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/SnakeGame/com/snake/extra/FileReadWriteTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SnakeGame/com/snake/extra/FileReadWriteTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/SnakeGame/com/snake/game/EggTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SnakeGame/com/snake/game/EggTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/com/snake/deal/GamemodeDeal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/com/snake/deal/GamemodeDeal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/com/snake/swing/GamePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/com/snake/swing/GamePanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/com/snake/swing/MySnakeGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/com/snake/swing/MySnakeGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/SnakeGame/com/snake/enums/ClassesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SnakeGame/com/snake/enums/ClassesTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/SnakeGame/com/snake/game/SnakeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SnakeGame/com/snake/game/SnakeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/snake/enums/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/snake/enums/Direction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/snake/game/Egg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/snake/game/Egg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/snake/game/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/snake/game/Snake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/com/snake/game/EggTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/com/snake/game/EggTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/com/snake/game/SnakeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/com/snake/game/SnakeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rank/simpleRank.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rank/simpleRank.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/snake/deal/GamemodeDeal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/snake/deal/GameModeDeal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/snake/swing/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/snake/swing/GamePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/snake/swing/MySnakeGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/snake/swing/MySnakeGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,113 +81,110 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/AreaJPro" />
-    <property name="project.structure.last.edited" value="全局库" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/tests/com/snake/game" />
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.snake.swing" />
+      <recent name="com.snake.enums" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.snake.enums" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/com/snake/game" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SnakeTest.addSnakeNode">
-    <configuration name="EggTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GamePanelTest.whoWin">
+    <configuration name="MySnakeGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.snake.swing.MySnakeGame" />
       <module name="SnakeGame" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.snake.game.*" />
+          <option name="PATTERN" value="com.snake.swing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.snake.game" />
-      <option name="MAIN_CLASS_NAME" value="com.snake.game.EggTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GamePanelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SnakeGame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.snake.swing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.snake.swing" />
+      <option name="MAIN_CLASS_NAME" value="com.snake.swing.GamePanelTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileReadWriteTest.isInRank" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GamePanelTest.eatEgg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SnakeGame" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.snake.extra.*" />
+          <option name="PATTERN" value="com.snake.swing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.snake.extra" />
-      <option name="MAIN_CLASS_NAME" value="com.snake.extra.FileReadWriteTest" />
-      <option name="METHOD_NAME" value="isInRank" />
+      <option name="PACKAGE_NAME" value="com.snake.swing" />
+      <option name="MAIN_CLASS_NAME" value="com.snake.swing.GamePanelTest" />
+      <option name="METHOD_NAME" value="eatEgg" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SnakeTest.addSnakeNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GamePanelTest.whoWin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SnakeGame" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.snake.game.*" />
+          <option name="PATTERN" value="com.snake.swing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.snake.game" />
-      <option name="MAIN_CLASS_NAME" value="com.snake.game.SnakeTest" />
-      <option name="METHOD_NAME" value="addSnakeNode" />
+      <option name="PACKAGE_NAME" value="com.snake.swing" />
+      <option name="MAIN_CLASS_NAME" value="com.snake.swing.GamePanelTest" />
+      <option name="METHOD_NAME" value="whoWin" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SnakeTest.addSnakenode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyJDialogTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SnakeGame" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.snake.game.*" />
+          <option name="PATTERN" value="com.snake.swing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.snake.game" />
-      <option name="MAIN_CLASS_NAME" value="com.snake.game.SnakeTest" />
-      <option name="METHOD_NAME" value="addSnakenode" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SnakeTest.changeDir" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SnakeGame" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.snake.game.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.snake.game" />
-      <option name="MAIN_CLASS_NAME" value="com.snake.game.SnakeTest" />
-      <option name="METHOD_NAME" value="changeDir" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.snake.swing" />
+      <option name="MAIN_CLASS_NAME" value="com.snake.swing.MyJDialogTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SnakeTest.addSnakeNode" />
-        <item itemvalue="JUnit.SnakeTest.addSnakenode" />
-        <item itemvalue="JUnit.SnakeTest.changeDir" />
-        <item itemvalue="JUnit.EggTest" />
-        <item itemvalue="JUnit.FileReadWriteTest.isInRank" />
+        <item itemvalue="JUnit.GamePanelTest.whoWin" />
+        <item itemvalue="JUnit.GamePanelTest" />
+        <item itemvalue="JUnit.GamePanelTest.eatEgg" />
+        <item itemvalue="JUnit.MyJDialogTest" />
+        <item itemvalue="Application.MySnakeGame" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="应用程序级" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -199,6 +196,7 @@
       <option name="presentableId" value="Default" />
       <updated>1649472942383</updated>
       <workItem from="1649472948580" duration="14537000" />
+      <workItem from="1649657892723" duration="3461000" />
     </task>
     <servers />
   </component>
@@ -227,21 +225,49 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/tests/com/snake/extra/FileReadWriteTest.java</url>
-          <line>25</line>
-          <properties class="com.snake.extra.FileReadWriteTest" method="isInRank">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="WindowStateProjectService">
+    <state width="1496" height="166" key="GridCell.Tab.0.bottom" timestamp="1649661478114">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1496" height="166" key="GridCell.Tab.0.bottom/0.0.1549.831@0.0.1549.831" timestamp="1649661478114" />
+    <state width="1496" height="166" key="GridCell.Tab.0.center" timestamp="1649661478113">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1496" height="166" key="GridCell.Tab.0.center/0.0.1549.831@0.0.1549.831" timestamp="1649661478113" />
+    <state width="1496" height="166" key="GridCell.Tab.0.left" timestamp="1649661478113">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1496" height="166" key="GridCell.Tab.0.left/0.0.1549.831@0.0.1549.831" timestamp="1649661478113" />
+    <state width="1496" height="166" key="GridCell.Tab.0.right" timestamp="1649661478114">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1496" height="166" key="GridCell.Tab.0.right/0.0.1549.831@0.0.1549.831" timestamp="1649661478114" />
+    <state width="1496" height="243" key="GridCell.Tab.1.bottom" timestamp="1649659852360">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1496" height="243" key="GridCell.Tab.1.bottom/0.0.1549.831@0.0.1549.831" timestamp="1649659852360" />
+    <state width="1496" height="243" key="GridCell.Tab.1.center" timestamp="1649659852360">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1496" height="243" key="GridCell.Tab.1.center/0.0.1549.831@0.0.1549.831" timestamp="1649659852360" />
+    <state width="1496" height="243" key="GridCell.Tab.1.left" timestamp="1649659852360">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1496" height="243" key="GridCell.Tab.1.left/0.0.1549.831@0.0.1549.831" timestamp="1649659852360" />
+    <state width="1496" height="243" key="GridCell.Tab.1.right" timestamp="1649659852360">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1496" height="243" key="GridCell.Tab.1.right/0.0.1549.831@0.0.1549.831" timestamp="1649659852360" />
+    <state x="127" y="0" key="SettingsEditor" timestamp="1649658324176">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state x="127" y="0" key="SettingsEditor/0.0.1549.831@0.0.1549.831" timestamp="1649658324176" />
+    <state x="491" y="86" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1649660227332">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state x="491" y="86" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1549.831@0.0.1549.831" timestamp="1649660227332" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

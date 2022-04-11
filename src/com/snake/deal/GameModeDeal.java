@@ -11,7 +11,7 @@ import java.awt.Color;
 import java.awt.Graphics;
 
 //游戏模式处理
-public class GamemodeDeal {
+public class GameModeDeal {
 	private GamePanel gamePanel;
 	public static Snake snake1 = null;
 	public static Snake snake2 = null;
@@ -22,7 +22,7 @@ public class GamemodeDeal {
 	public static int life1;// 蛇1生命
 	public static int life2;// 蛇2生命
 
-	public GamemodeDeal(GamePanel gamePanel) {
+	public GameModeDeal(GamePanel gamePanel) {
 		this.gamePanel = gamePanel;
 	}
 
