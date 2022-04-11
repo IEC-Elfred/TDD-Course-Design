@@ -1,17 +1,44 @@
 package com.snake.game;
 
 import com.snake.enums.Direction;
+import com.snake.swing.GamePanel;
+import com.snake.swing.MySnakeGame;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
+import org.junit.runners.Parameterized.Parameter;
+import org.junit.runners.Parameterized.Parameters;
 
 
+import java.awt.event.KeyEvent;
+import java.util.Arrays;
+import java.util.Collection;
 
 import static org.junit.Assert.*;
 
+@RunWith(Parameterized.class)
 public class SnakeTest {
 
     private Snake snake;
+
+    @Parameter(0)
+    public int x;
+    @Parameter(1)
+    public int y;
+    @Parameter(2)
+    public Direction dir;
+    @Parameter(3)
+    public int expectedX;
+    @Parameter(4)
+    public int expectedY;
+
+    @Parameters
+    public static Collection data() {
+        return Arrays.asList(new Object[]{60, 60, Direction.UP,60,30}, new Object[]{60, 60, Direction.DOWN,60,90},
+                new Object[]{60, 60, Direction.LEFT,30,60}, new Object[]{60, 60, Direction.RIGHT,90,60});
+    }
 
     @Before
     public void setUp() throws Exception {
@@ -41,7 +68,12 @@ public class SnakeTest {
         }
     }
 
-
+    @Test
+    public void snakeMove() {
+        int[] res = snake.Snakemove(x,y,dir);
+        assertEquals(expectedX,res[0]);
+        assertEquals(expectedY,res[1]);
+    }
 
     @Test
     public void addSnakeNode() {
