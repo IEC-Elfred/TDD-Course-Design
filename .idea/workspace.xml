@@ -21,17 +21,20 @@
   <component name="ChangeListManager">
     <list default="true" id="93226f3b-6cc8-43b7-bf8b-a7fd5885af6c" name="Default Changelist" comment="Default Changelist">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/com/snake/enums/Direction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/com/snake/enums/Direction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/com/snake/game/Egg.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/com/snake/game/Egg.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/com/snake/game/Snake.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/com/snake/game/Snake.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/com/snake/deal/ClassesDeal$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/com/snake/deal/ClassesDeal$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SnakeGame/com/snake/deal/ClassesDeal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnakeGame/com/snake/deal/ClassesDeal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/SnakeGame/com/snake/deal/ClassesDealTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SnakeGame/com/snake/deal/ClassesDealTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/SnakeGame/com/snake/deal/GameModeDealTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SnakeGame/com/snake/deal/GameModeDealTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/SnakeGame/com/snake/enums/ClassesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SnakeGame/com/snake/enums/ClassesTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/SnakeGame/com/snake/extra/FileReadWriteTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SnakeGame/com/snake/extra/FileReadWriteTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/SnakeGame/com/snake/game/EggTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SnakeGame/com/snake/game/EggTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/SnakeGame/com/snake/extra/MusicTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SnakeGame/com/snake/extra/MusicTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/SnakeGame/com/snake/game/SnakeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SnakeGame/com/snake/game/SnakeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/snake/enums/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/snake/enums/Direction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/snake/game/Egg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/snake/game/Egg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/snake/game/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/snake/game/Snake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/com/snake/game/EggTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/com/snake/game/EggTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/com/snake/game/SnakeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/com/snake/game/SnakeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/snake/deal/ClassesDeal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/snake/deal/ClassesDeal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/snake/extra/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/snake/extra/Music.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/com/snake/deal/ClassesDealTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/com/snake/deal/ClassesDealTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/com/snake/deal/GameModeDealTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/com/snake/deal/GameModeDealTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/com/snake/extra/FileReadWriteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/com/snake/extra/FileReadWriteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/com/snake/extra/MusicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/com/snake/extra/MusicTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,10 +84,10 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/AreaJPro" />
-    <property name="project.structure.last.edited" value="全局库" />
+    <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -97,22 +100,7 @@
       <recent name="com.snake.enums" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SnakeTest.addSnakeNode">
-    <configuration name="EggTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SnakeGame" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.snake.game.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.snake.game" />
-      <option name="MAIN_CLASS_NAME" value="com.snake.game.EggTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MusicTest.musicStop">
     <configuration name="FileReadWriteTest.isInRank" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SnakeGame" />
       <extension name="coverage">
@@ -129,49 +117,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SnakeTest.addSnakeNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GameModeDealTest.eatEgg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SnakeGame" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.snake.game.*" />
+          <option name="PATTERN" value="com.snake.deal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.snake.game" />
-      <option name="MAIN_CLASS_NAME" value="com.snake.game.SnakeTest" />
-      <option name="METHOD_NAME" value="addSnakeNode" />
+      <option name="PACKAGE_NAME" value="com.snake.deal" />
+      <option name="MAIN_CLASS_NAME" value="com.snake.deal.GameModeDealTest" />
+      <option name="METHOD_NAME" value="eatEgg" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SnakeTest.addSnakenode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MusicTest.musicLoopplay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SnakeGame" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.snake.game.*" />
+          <option name="PATTERN" value="com.snake.extra.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.snake.game" />
-      <option name="MAIN_CLASS_NAME" value="com.snake.game.SnakeTest" />
-      <option name="METHOD_NAME" value="addSnakenode" />
+      <option name="PACKAGE_NAME" value="com.snake.extra" />
+      <option name="MAIN_CLASS_NAME" value="com.snake.extra.MusicTest" />
+      <option name="METHOD_NAME" value="musicLoopplay" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SnakeTest.changeDir" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MusicTest.musicStop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SnakeGame" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.snake.game.*" />
+          <option name="PATTERN" value="com.snake.extra.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.snake.game" />
-      <option name="MAIN_CLASS_NAME" value="com.snake.game.SnakeTest" />
-      <option name="METHOD_NAME" value="changeDir" />
+      <option name="PACKAGE_NAME" value="com.snake.extra" />
+      <option name="MAIN_CLASS_NAME" value="com.snake.extra.MusicTest" />
+      <option name="METHOD_NAME" value="musicStop" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MusicTest.musicstart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SnakeGame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.snake.extra.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.snake.extra" />
+      <option name="MAIN_CLASS_NAME" value="com.snake.extra.MusicTest" />
+      <option name="METHOD_NAME" value="musicstart" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -179,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SnakeTest.addSnakeNode" />
-        <item itemvalue="JUnit.SnakeTest.addSnakenode" />
-        <item itemvalue="JUnit.SnakeTest.changeDir" />
-        <item itemvalue="JUnit.EggTest" />
+        <item itemvalue="JUnit.MusicTest.musicStop" />
+        <item itemvalue="JUnit.MusicTest.musicLoopplay" />
+        <item itemvalue="JUnit.MusicTest.musicstart" />
         <item itemvalue="JUnit.FileReadWriteTest.isInRank" />
+        <item itemvalue="JUnit.GameModeDealTest.eatEgg" />
       </list>
     </recent_temporary>
   </component>
@@ -233,12 +237,21 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/tests/com/snake/extra/FileReadWriteTest.java</url>
-          <line>25</line>
+          <line>26</line>
           <properties class="com.snake.extra.FileReadWriteTest" method="isInRank">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/tests/com/snake/deal/ClassesDealTest.java</url>
+          <line>47</line>
+          <properties class="com.snake.deal.ClassesDealTest" method="dieDeal">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -13,7 +13,8 @@ public class FileReadWriteTest {
     @Before
     public void setUp() throws Exception {
         mFilereadwrite = new Filereadwrite();
-        scores = new String[]{"44","59","60"};
+        scores = new String[]{"44","59","60","11"};
+        mFilereadwrite.score = scores;
         System.out.println("FileReadWrite test setUp");
     }
 
@@ -25,7 +26,7 @@ public class FileReadWriteTest {
     @Test
     public void isInRank() {
         int scoreNow = 55;
-        //Assert.assertTrue(this.mFilereadwrite.isInRank(scoreNow));
+        Assert.assertTrue(this.mFilereadwrite.isInRank(scoreNow));
     }
 
 }

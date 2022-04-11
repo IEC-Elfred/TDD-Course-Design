@@ -31,19 +31,33 @@ public class Music  {
 		aau.loop();
 	}
 
+	public boolean musicLoopplay(boolean isSuccess){
+		aau.loop();
+		return true;
+	}
+
 	/**
 	 * 单次播放
 	 */
 	public void musicPlay(){
 		aau.play();//aau.play()
 	}
-
+	public boolean musicPlay(boolean isSuccess){
+		aau.play();
+		return true;
+	}
 	/**
 	 * 停止播放
 	 */
 	public  void musicStop(){
 		aau.stop();
 	}
-
+	public boolean musicStop(boolean isSuccess){
+		aau.stop();
+		return true;
+	}
+	public void setAau(AudioClip aau){
+		this.aau = aau;
+	}
 
 }

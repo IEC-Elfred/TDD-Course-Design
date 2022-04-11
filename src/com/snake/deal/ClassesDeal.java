@@ -1,5 +1,6 @@
 package com.snake.deal;
 
+import com.snake.enums.Classes;
 import com.snake.enums.TwoModel;
 import com.snake.game.Snake;
 import com.snake.swing.GamePanel;
@@ -17,7 +18,9 @@ public class ClassesDeal {
 		this.snake1 = snake1;
 		this.snake2 = snake2;
 	}
-
+	public void dieDeal(Classes classes) {
+		dieDeal();
+	}
 	// 游戏死处理别
 	public void dieDeal() {
 		switch (GamePanel.classes) {
